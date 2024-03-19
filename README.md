@@ -31,7 +31,7 @@ use {'DoctorApparatus/delinter-nvim'}
 
 ```lua
 return {
-	dir = "DoctorApparatus/delinter-nvim",
+	"DoctorApparatus/delinter-nvim",
 	config = function()
 		require("delinter-nvim").setup({
 			-- Assuming 'filetypes' is the correct key based on our discussion
